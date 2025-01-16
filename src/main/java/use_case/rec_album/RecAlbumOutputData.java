@@ -20,22 +20,22 @@ public class RecAlbumOutputData {
     public String getId() {
         return id;
     }
-}
 
     public String getAlbumName() {
-        return name;
+    return name;
     }
 
     public boolean isSuccess() {
-        return success;
+    return success;
     }
 
     public String getMessage() {
-        return message;
+    return message;
     }
 
     public Album getAlbum() {
         return new Album(this.id, this.name, 0, new ArrayList<>(), new ArrayList<>());
     }
 }
+
 
